@@ -1,0 +1,21 @@
+{
+  "name": "html",
+  "homepage": "https://github.com/ederCoffani/Meu-primeiro-responsivel",
+  "authors": [
+    "Eder Coffani <edcoffani@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
