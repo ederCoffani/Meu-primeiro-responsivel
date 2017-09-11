@@ -4,7 +4,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Meu primeiro site responsivo</title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="geral.css">
+	<link rel="stylesheet" href="plugins.css">
 </head>
 <body>
 	<header>
@@ -13,23 +14,28 @@
 			<img src="imagens/logo-site-ede.svg" alt="Logo do topo Tag">
 			</a>
 		</div>
-
-		<nav>
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="#">Sobre</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contato</a></li>
+		<div class="links">			
+			<nav>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>
+			</nav>
+			
+			<ul class="social">
+				<li>
+					<a href="#"><i class="fa fa-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-github-alt"></i>
+					</a>
+				</li>
 			</ul>
-		</nav>
-		<ul class="social">
-			<li>
-			<a href="#"><i class="fa fa-facebook"></i></a>
-			</li>
-			<li>
-			<a href="#"><i class="fa fa-github-alt"></i></a>
-			</li>
-		</ul>
+		</div>
+		
 		<h1><strong>Eder</strong> R. <strong>Coffani</strong></h1>
 
 		<p>Code//Idealize//Reboot//Cooperate</p>
@@ -58,7 +64,8 @@
 	</main>
 	<footer>
 		<div class="logo-rodape">
-			<a href="index.html"><img src="imagens/logo_rodape-site.svg" alt="Logo Rodape Tag" >
+			<a href="index.html">
+			<img src="imagens/logo_rodape-site.svg" alt="Logo Rodape Tag" >
 			</a>
 
 			<p>2017 - Todos os DIreitos Reservados</p>
